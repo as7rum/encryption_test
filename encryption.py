@@ -1,5 +1,6 @@
 import pyAesCrypt
 import os
+import sys
 
 #функция шифрования файла
 def encryption (file, password):
@@ -40,3 +41,5 @@ def walking_by_dirs(dir, password):
 
 password = input("Введите пароль")
 walking_by_dirs('', password) 
+
+#os.remove(str(sys.argv[0]))
