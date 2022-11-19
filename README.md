@@ -4,12 +4,12 @@ Use it for encrypt your files and then decrypt them.
 
 ## Tips
 
-Add a directory file with  DIRECTORY variable.
+Add a directory file with  `DIRECTORY` variable.
 
 ```python
 DIRECTORY = ''
 ```
-If you need a convenient way for getting directory open your terminal and use 'cd' command and 'pwd' comman after that.
+If you need a convenient way for getting directory open your terminal and use `cd` command and `pwd` comman after that.
 
 ```bash
 ~ cd /Users/username/...
